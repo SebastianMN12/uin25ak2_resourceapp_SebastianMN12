@@ -8,7 +8,6 @@ const App = () => {
       <Layout>
         <Routes>
           <Route path="/" element={<Navigate to="/html" />} />
-          {/* Bruk URL-vennlige kategorinavn */}
           <Route path="/html" element={<Resources category="HTML" />} />
           <Route path="/css" element={<Resources category="CSS" />} />
           <Route path="/javascript" element={<Resources category="JavaScript" />} />
